@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="estilos.css">
+  <title>Info Order Block</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <select id="limit-select">
+      <option value="50">50</option>
+      <option selected="selected" value="100">100</option>
+      <option value="300">300</option>
+      <option value="500">500</option>
+      <option value="500">1000</option>
+    </select>
+    <input id="symbol-input" type="text" placeholder="Ingrese el símbolo de la criptomoneda...">
+    <button id="search-button">Buscar</button>
+    <a target="_blank" href="specialcripto/index.html">
+      <button>Ver +</button>
+    </a>
+  </div>
+  <div id="order-block-info"></div>
+  <div id="top-cryptos" class="crypto-list"></div>
+  <script src="app.js"></script>
+</body>
+
+</html>
